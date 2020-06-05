@@ -1,0 +1,34 @@
+
+@hostname =localhost
+@port = 8888
+@host = {{hostname}}:{{port}}
+@baseUrl ="http://localhost:8888"
+@contentType = application/json
+
+
+@name = products
+
+
+//POST {{baseUrl}}/{{name}} HTTP/1.1
+post http://{{host}}/{{name}} HTTP/1.1
+content-type: {{contentType}}
+
+{ 
+    "description": "good", 
+    "price":"12.12"
+}
+
+###
+
+post http://{{host}}/{{name}} HTTP/1.1
+content-type: {{contentType}}
+
+{ 
+    "name": "apple juice",
+    "description": "good", 
+    "price":"12.12"
+}
+
+
+
+
