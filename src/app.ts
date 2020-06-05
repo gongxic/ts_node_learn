@@ -4,6 +4,8 @@ const app: Express = express();
 
 import bodyParser from 'body-parser'
 
+const config: IConfig = require('../config.js')
+
 var products = [
     { name: 'apple juice', description: 'good', price: 12.12 },
     { name: 'banana juice', description: 'just so sos', price: 4.50 }
