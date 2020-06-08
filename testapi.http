@@ -29,6 +29,15 @@ content-type: {{contentType}}
     "price":"12.12"
 }
 
+### 
+
+@name = products
+get http://{{host}}/{{name}} HTTP/1.1
+
+### 
+
+@name = products
+get http://{{host}}/{{name}}/1 HTTP/1.1
 
 
 
