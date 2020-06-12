@@ -2,13 +2,13 @@
   "name": "ts_node_learn",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "dev": "cross-env NODE_ENV=development ts-node-dev src/app.ts",
-    "server": "cross-env NODE_ENV=development ts-node src/app.ts",
-    "devjs": "cross-env NODE_ENV=development nodemon dist/app.js"
+    "dev": "cross-env NODE_ENV=development ts-node-dev src/server.ts",
+    "server": "cross-env NODE_ENV=development ts-node src/server.ts",
+    "devjs": "cross-env NODE_ENV=development nodemon dist/server.js"
   },
   "author": "",
   "license": "ISC",
