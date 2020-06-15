@@ -6,7 +6,7 @@ class App {
     public app: express.Application = express();
     constructor() {
         this.config();
-        this.
+        routers(this.app);
     }
 
     private config(): void {
@@ -15,7 +15,6 @@ class App {
         // serving static files 
         this.app.use(express.static('public'));
     }
-
 
 }
 
