@@ -1,7 +1,7 @@
 
 @hostname =localhost
 @port = 8888
-@host = {{hostname}}:{{port}}/api-client/v1
+@host = {{hostname}}:{{port}}/v1
 @baseUrl ="http://localhost:8888"
 @contentType = application/json
 
