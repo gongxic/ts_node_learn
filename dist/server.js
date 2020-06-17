@@ -4,7 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const app_1 = __importDefault(require("./app"));
+const http_1 = __importDefault(require("http"));
 const config = require('../config.js');
-app_1.default.listen(8888, function () {
+http_1.default.createServer(app_1.default).listen(8888, function () {
     console.log('Example app listening on port 8888!');
 });
