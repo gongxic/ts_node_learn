@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "dev": "cross-env NODE_ENV=development ts-node-dev src/server.ts",
-    "server": "cross-env NODE_ENV=production node dist/server.js",
+    "server": "node dist/server.js",
     "devjs": "cross-env NODE_ENV=development nodemon dist/server.js"
   },
   "author": "",
@@ -18,17 +18,17 @@
     "ejs": "^3.1.3",
     "express": "^4.17.1",
     "express-rate-limit": "^5.1.3",
-    "helmet": "^3.23.0",
-    "nodemon": "^2.0.4"
+    "helmet": "^3.23.0"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
     "@types/express": "^4.17.6",
     "@types/express-rate-limit": "^5.0.0",
     "@types/helmet": "0.0.47",
-    "cross-env": "^7.0.2",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.44",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4",
     "typescript": "^3.9.5"
   }
 }
