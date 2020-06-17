@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "dev": "cross-env NODE_ENV=development ts-node-dev src/server.ts",
-    "server": "cross-env NODE_ENV=development ts-node src/server.ts",
+    "server": "cross-env NODE_ENV=production node dist/server.js",
     "devjs": "cross-env NODE_ENV=development nodemon dist/server.js"
   },
   "author": "",
