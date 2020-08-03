@@ -1,8 +1,8 @@
 
 @hostname =47.104.73.68
-@port = 8080
+@port = 8086
 @host = {{hostname}}:{{port}}/v1
-@baseUrl ="http://47.104.73.68:8080"
+@baseUrl ="http://47.104.73.68:8086"
 @contentType = application/json
 
 
